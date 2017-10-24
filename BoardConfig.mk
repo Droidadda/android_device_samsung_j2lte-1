@@ -29,7 +29,7 @@ USE_OPENGL_RENDERER := true
 BOARD_EGL_CFG := $(LOCAL_PATH)/configs/egl/egl.cfg
 
 # PowerHAL
-TARGET_POWERHAL_VARIANT := exynos3
+TARGET_POWERHAL_VARIANT := samsung
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
