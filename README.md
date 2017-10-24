@@ -1,6 +1,6 @@
-# CM Device Tree for Samsung Galaxy J2 (J200G)
+# LineageOS Device Tree for Samsung Galaxy J2 2015 (J200G/GU)
 
 Please note :
 
-This tree is far from finished and WIP. Before you start building, apply the patches by running the apply.sh script located in that pach directory
-# android_device_samusng_j2lte
+This tree is far from finished and WIP.
+# android_device_samsung_j2lte

@@ -492,10 +492,6 @@ on property:ro.bootmode=charger
 on property:ro.bootmode=charger
    class_start sec-charger
 
-service playlpm /system/bin/lpm
-   class sec-charger
-   critical
-
 # Load WiFi modules
 service wifi_ld  /system/bin/logwrapper /system/bin/load_amber_modules.sh
     class core
