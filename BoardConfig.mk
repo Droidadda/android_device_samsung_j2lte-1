@@ -11,7 +11,7 @@ TARGET_CPU_VARIANT := cortex-a7
 # Platform
 BOARD_VENDOR := samsung
 
-TARGET_BOARD_PLATFORM := exynos3
+TARGET_BOARD_PLATFORM := exynos5
 TARGET_SLSI_VARIANT := cm
 TARGET_SOC := exynos3475
 
