@@ -1,0 +1,47 @@
+[
+    {
+        "repository": "smdk3475/android_kernel_samsung_j2lte",
+        "target_path": "kernel/samsung/j2lte",
+        "branch": "cm-13.0"
+    },
+    {
+        "repository": "smdk3475/proprietary_vendor_samsung",
+        "target_path": "vendor/samsung",
+        "branch": "cm-13.0"
+    },
+    {
+        "repository": "smdk3475/android_hardware_samsung_slsi-cm_exynos",
+        "target_path": "hardware/samsung_slsi-cm/exynos",
+        "branch": "cm-13.0"
+    },
+    {
+        "repository": "smdk3475/android_hardware_samsung_slsi-cm_exynos3475",
+        "target_path": "hardware/samsung_slsi-cm/exynos3475",
+        "branch": "cm-13.0"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung",
+        "target_path": "hardware/samsung",
+        "branch": "cm-13.0"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi-cm_exynos5",
+        "target_path": "hardware/samsung_slsi-cm/exynos5",
+        "branch": "cm-13.0"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi-cm_openmax",
+        "target_path": "hardware/samsung_slsi-cm/openmax",
+        "branch": "cm-13.0"
+    },
+    {
+        "repository": "LineageOS/android_external_stlport",
+        "target_path": "external/stlport",
+        "branch": "cm-13.0"
+    },
+    {
+        "repository": "LineageOS/android_packages_apps_SamsungServiceMode",
+        "target_path": "packages/apps/SamsungServiceMode",
+        "branch": "cm-13.0"
+    }
+]
