@@ -28,6 +28,10 @@ TARGET_SCREEN_WIDTH := 540
 USE_OPENGL_RENDERER := true
 BOARD_EGL_CFG := $(LOCAL_PATH)/configs/egl/egl.cfg
 
+# GScaler
+BOARD_USES_SCALER := true
+BOARD_USES_DT := true
+
 # PowerHAL
 TARGET_POWERHAL_VARIANT := samsung
 
