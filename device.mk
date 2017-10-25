@@ -7,6 +7,20 @@ LOCAL_PATH := device/samsung/j2lte
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    fstab.universal3475 \
+    init.baseband.rc \
+    init.carrier.rc \
+    init.recovery.exynos3475.rc \
+    init.rilchip.rc \
+    init.rilcommon.rc \
+    init.sec.boot.sh \
+    init.universal3475.rc \
+    init.universal3475.usb.rc \
+    init.wifi.rc \
+    ueventd.universal3475.rc
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:system/etc/permissions/android.hardware.audio.low_latency.xml \
