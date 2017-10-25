@@ -7,6 +7,13 @@ LOCAL_PATH := device/samsung/j2lte
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# Mobicore
+PRODUCT_PACKAGES += \
+    libMcClient \
+    libMcRegistry \
+    libPaApi \
+    libgdmcprov
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.universal3475 \
