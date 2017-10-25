@@ -50,7 +50,7 @@ BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_BOARD := SYSMAGIC000K 	
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/j2lte/dtb.img
-TARGET_KERNEL_CONFIG := lineage_j2lte_defconfig
+TARGET_KERNEL_CONFIG := lineageos_j2lte_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/j2lte
 
 # Partitions
